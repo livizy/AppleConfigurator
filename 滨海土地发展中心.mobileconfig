@@ -8,15 +8,31 @@
 	<array>
 		<dict>
 			<key>PayloadDescription</key>
+			<string>配置用于移除描述文件的密码</string>
+			<key>PayloadDisplayName</key>
+			<string>移除描述文件</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.profileRemovalPassword.56EA980C-6377-4B6C-88C4-2E7F3E5966DF</string>
+			<key>PayloadType</key>
+			<string>com.apple.profileRemovalPassword</string>
+			<key>PayloadUUID</key>
+			<string>56EA980C-6377-4B6C-88C4-2E7F3E5966DF</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>RemovalPassword</key>
+			<string>010Stargis</string>
+		</dict>
+		<dict>
+			<key>PayloadDescription</key>
 			<string>配置访问限制</string>
 			<key>PayloadDisplayName</key>
 			<string>访问限制</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.applicationaccess.A5A10BB6-3BED-438F-A00C-9B1C13D3BDC4</string>
+			<string>com.apple.applicationaccess.3B5BC99D-25B9-4581-A145-0EE6F4375041</string>
 			<key>PayloadType</key>
 			<string>com.apple.applicationaccess</string>
 			<key>PayloadUUID</key>
-			<string>A5A10BB6-3BED-438F-A00C-9B1C13D3BDC4</string>
+			<string>3B5BC99D-25B9-4581-A145-0EE6F4375041</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>allowAccountModification</key>
@@ -96,11 +112,11 @@
 			<key>allowFingerprintModification</key>
 			<true/>
 			<key>allowGameCenter</key>
-			<true/>
+			<false/>
 			<key>allowGlobalBackgroundFetchWhenRoaming</key>
 			<false/>
 			<key>allowHostPairing</key>
-			<false/>
+			<true/>
 			<key>allowInAppPurchases</key>
 			<false/>
 			<key>allowKeyboardShortcuts</key>
@@ -112,7 +128,7 @@
 			<key>allowMusicService</key>
 			<false/>
 			<key>allowNews</key>
-			<true/>
+			<false/>
 			<key>allowNotificationsModification</key>
 			<false/>
 			<key>allowOTAPKIUpdates</key>
@@ -128,6 +144,8 @@
 			<key>allowPasscodeModification</key>
 			<true/>
 			<key>allowPhotoStream</key>
+			<false/>
+			<key>allowPodcasts</key>
 			<false/>
 			<key>allowPredictiveKeyboard</key>
 			<true/>
@@ -166,7 +184,7 @@
 			<key>allowWallpaperModification</key>
 			<true/>
 			<key>allowiTunes</key>
-			<true/>
+			<false/>
 			<key>forceAirDropUnmanaged</key>
 			<false/>
 			<key>forceAirPrintTrustedTLSRequirement</key>
@@ -208,31 +226,15 @@
 		</dict>
 		<dict>
 			<key>PayloadDescription</key>
-			<string>配置用于移除描述文件的密码</string>
-			<key>PayloadDisplayName</key>
-			<string>移除描述文件</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.profileRemovalPassword.56EA980C-6377-4B6C-88C4-2E7F3E5966DF</string>
-			<key>PayloadType</key>
-			<string>com.apple.profileRemovalPassword</string>
-			<key>PayloadUUID</key>
-			<string>56EA980C-6377-4B6C-88C4-2E7F3E5966DF</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>RemovalPassword</key>
-			<string>010Stargis</string>
-		</dict>
-		<dict>
-			<key>PayloadDescription</key>
 			<string>全局 HTTP 代理</string>
 			<key>PayloadDisplayName</key>
 			<string>全局 HTTP 代理</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.proxy.http.global.67175716-AA1A-452E-9C2E-AB0A19170FC2</string>
+			<string>com.apple.proxy.http.global.D64DD391-3DFA-43DD-9503-64ED95B9B318</string>
 			<key>PayloadType</key>
 			<string>com.apple.proxy.http.global</string>
 			<key>PayloadUUID</key>
-			<string>67175716-AA1A-452E-9C2E-AB0A19170FC2</string>
+			<string>D64DD391-3DFA-43DD-9503-64ED95B9B318</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>ProxyCaptiveLoginAllowed</key>
@@ -254,7 +256,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>C00A2D80-9947-40EE-A254-403A1C0911F5</string>
+	<string>26534477-395F-4426-BBE3-982C499070F7</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
